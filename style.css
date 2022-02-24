@@ -38,6 +38,7 @@ input {
 .img-container {
   position: relative;
   width: 100px;
+  margin-right: 150px;
   margin-left: 70px;
 }
 
