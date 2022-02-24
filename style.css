@@ -25,4 +25,38 @@ input {
 .poke-card::before {
   content: '';
   background: radial-gradient(black 33% transparent 33%);
+  background-size: 3px 3px;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: -1;
+}
+
+.img-container {
+  position: relative;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.poke-stats div {
+  display: flex;
+  justify-content: space-between;
+  aling-content: space-between;
+  padding: 5px;
+  front-size: 18px;
+}
+
+.poke-type div {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px dashed black;
+}
+
+.poke-img {
+  width: 180px;
+  border-radius: 50%;
 }
