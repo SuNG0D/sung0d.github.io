@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>PokemonList</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+  </head>
+  <body>
+    <form action ="" onsubmit="searchPokemon(event)">
+      <input type = "text" name = "pokemon" autocomplete = "off">
+    </form>
+    <div data-poke-card class = "poke-card">
+      <div data-poke-name>Pokedex</div>
+      <div data-poke-img-container class = "img-container">
+        <img data-poke-img class = "poke-img" src = "./poke-shadow.png"/>
+      </div>
+      <div data-pokemon-id></div>
+      <div data-poke-types class = "poke-types"></div>
+      <div data-poke-stats class = "poke: stats "></div>
+    </div>
+  </body>
+</html>
