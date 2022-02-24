@@ -38,7 +38,7 @@ input {
 .img-container {
   position: relative;
   width: 100px;
-  margin: 10px auto;
+  margin-left: 70px;
 }
 
 .poke-stats div {
